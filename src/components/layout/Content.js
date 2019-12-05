@@ -1,8 +1,9 @@
-import React from 'react';
-import { Route, Switch } from 'react-router-dom'
+import React from "react";
+import { Route, Switch } from "react-router-dom";
 
-import Main from '../page/Main'
-import Mypage from '../page/Mypage'
+import Main from "../page/Main";
+import Mypage from "../page/Mypage";
+import Signup from "../page/Signup";
 
 const Content = () => {
   return (
@@ -10,9 +11,10 @@ const Content = () => {
       <Switch>
         <Route path="/" exact component={Main} />
         <Route path="/mypage" component={Mypage} />
+        <Route path="/signup" component={Signup} />
       </Switch>
     </div>
-  )
-}
+  );
+};
 
-export default Content
+export default Content;
