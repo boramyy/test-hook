@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <header>
       <h1>Practice of Hooks and Context API</h1>
-      <h2>안뇽하세요 {name} 님</h2>
+      <h2>안뇽하세요 {name} 님 반가링~~ 흑..</h2>
       <nav>
         <ul>
           <li>
@@ -19,7 +19,7 @@ const Header = () => {
             <NavLink to="/mypage">mypage</NavLink>
           </li>
           <li>
-            <NavLink to="/signup">signup</NavLink>
+            <NavLink to="/test-hook/signup">signup</NavLink>
           </li>
         </ul>
       </nav>

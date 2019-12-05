@@ -1,0 +1,1 @@
+{"version":3,"sources":["Profile.css","App.css"],"names":[],"mappings":"AAEA,cACE,YACF,CCJA,UACE,iBACF","file":"main.78dc1217.chunk.css","sourcesContent":["@charset \"utf-8\";\n\n.card_profile {\n  padding:30px\n}",".wrap_app {\n  text-align: center;\n}"]}
